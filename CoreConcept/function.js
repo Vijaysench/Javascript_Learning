@@ -43,3 +43,53 @@ function myFunction(a , b) {
     return Math.max(...array);
   }
   console.log(findMaxnumber(array));
+
+  //find the minmum number in an array
+
+  let minnum = [12 , 2, 4 , 5, 5,6 , 6 ,7 ,8 ,-10];
+  let uniqueminnum = new Set(minnum);
+  console.log([...uniqueminnum]);
+
+  function minOfNumber(uniqueminnum){
+    return Math.min(...uniqueminnum);
+  }
+console.log(minOfNumber(uniqueminnum));
+
+// check if this is palindrom or not 
+
+let str = "hellohello"
+ function strPalindrom(str){
+  let reversestr = str.split("").reverse().join("");
+  console.log(reversestr)
+  return str === reversestr;
+ }
+ console.log(strPalindrom("hellohello"));
+
+ let str2 = "123454321";
+ function  strPlaindrom(str2){
+   let reverseStr2 = str2.split("").reverse().join("");
+   console.log(reverseStr2);
+   return str === reverseStr2;
+ }
+
+ console.log(strPlaindrom("123454321"));
+
+ let str3 = "NamaN";
+ function setPalindrom(str3){
+  let reverseSet3 = str3.split().reverse().join();
+  console.log(reverseSet3);
+  return str3 === reverseSet3;
+ }
+ console.log(strPalindrom("NamaN"));
+
+
+ let string1 = "Vijay";
+
+ let string2 = "Vijay";
+
+ function issetPlaindrom(string1 , string2){
+
+   let isPlaindrom = (str) => str === str.split("").reverse("").join("")
+  return isPlaindrom(string1) === isPlaindrom(string2);
+ }
+ console.log(issetPlaindrom(string1,string2));
