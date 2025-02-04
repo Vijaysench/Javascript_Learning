@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding:  0 auto;
+}
+.calculater{
+    border: 1px solid #b7a9a9;
+    border-radius: 5px;
+    width: 200px;
+padding: 10px;
+}
+#displayvalue{
+    width: 95%;
+    font-size: 20px;
+}
+.buttonContainer{
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    background: #b7a9a9;
+    color: #f2eaea;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 3px;
+}

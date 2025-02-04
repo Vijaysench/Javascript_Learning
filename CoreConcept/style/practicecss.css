@@ -1,0 +1,22 @@
+.classbtn {
+    color: rgb(211, 155, 155);
+    
+}
+
+p {
+    color: blue;
+}
+.bagbtn{
+    background-color: rgb(216, 165, 165);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.wishbtn{
+    border: none;
+    padding: 5px 15px;
+    background-color: rgb(209, 231, 180);
+    border-radius: 8px;
+    border: 2px solid black;
+    text-transform:uppercase;
+}

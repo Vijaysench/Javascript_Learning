@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let welcomemessage = "Hello friends";
+        let coupon1 = 272;
+        let coupon2 = 29;
+        let bagPrice = (15999 - (10/100* 15999)) - coupon1;
+        let jeansprice = (2499 - (41/100 * 2499)) - coupon2;
+        let bagVlaue = Math.round( (bagPrice + jeansprice + 25 +20) * 118/100);
+        let bagSummary = `your myntra bag Amount is ${bagVlaue}`;
+        console.log(bagSummary);
+    </script>
+</body>
+</html>
